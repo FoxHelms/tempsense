@@ -12,7 +12,7 @@ A kafka consumer writes these serial updates to an InfluxDB, which is fed into G
 The Graphana dashboard is configured for high availability. 
 
 ## Graphana Dashboard
-<img src="./imgs/temp_dashboard.png">
+<img src="./imgs/temp_dash_24_hours.png">
 
 This screenshot shows a demonstration where a lighter is held up to the sensor, then pulled away. 
 
