@@ -14,7 +14,8 @@ The Graphana dashboard is configured for high availability.
 ## Graphana Dashboard
 <img src="./imgs/temp_dash_24_hours.png">
 
-This screenshot shows a demonstration where a lighter is held up to the sensor, then pulled away. 
+This screenshot shows the temperature in my lving room over a 24 hour 
+cycle. 
 
 
 
