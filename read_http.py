@@ -8,15 +8,17 @@ import json
 load_dotenv()
 
 weather_url = os.getenv('WEATHER_URL', 'No weather url found')
+cachedResponse = {"humidity":5, "temp_f":70.00}
 
 def fetch_data_from_http(url):
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+        cachedResponse = response.json()
         return response.json()  # Assuming the endpoint returns JSON
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data from {url}: {e}")
-        return None
+        return cachedResponse
 
 
 TOPIC = "room.temp"
