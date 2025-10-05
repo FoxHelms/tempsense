@@ -20,7 +20,7 @@ class InfluxWriter:
             Point("temp_humidity")
             .tag("source", data["source"])
             .field("humidity", float(data["humidity"]))
-            .field("temp_c", float(data["temp_c"]))
+            # .field("temp_c", float(data["temp_c"])) uncomment when reading from serial
             .field("temp_f", float(data["temp_f"]))
             .time(data["timestamp"])
         )
