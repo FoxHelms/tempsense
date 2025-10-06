@@ -17,6 +17,10 @@ The Graphana dashboard is configured for high availability.
 This screenshot shows the temperature in my lving room over a 24 hour 
 cycle. 
 
+## Prometheus Dashboard
+<img src="./imgs/prometheus_dashboard.png">
+This shows that my kafka scripts are up and running
+
 
 
 
