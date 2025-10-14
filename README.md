@@ -17,6 +17,8 @@ The Graphana dashboard is configured for high availability.
 This screenshot shows the temperature in my lving room over a 24 hour 
 cycle. 
 
+### To Do
+- [ ] implement fast and slow storage model
 
 
 
